@@ -13,17 +13,27 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import './appStyles.css'
 import styels from'./appStyles.module.css'
+import Form from './components/Form';
+import Practiceprops from './components/Practiceprops';
+import DiscountPercentage from './components/DiscountPercentage';
+import Listrendering from './components/Listrendering';
 function App () {
     return (
       <div className="App">
-        <h1 className='error'>eroor</h1>
-        <h1 className= {styels.success}>success</h1>
+        {/* <h1 className='error'>eroor</h1> */}
+        {/* <h1 className= {styels.success}>success</h1> */}
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent/> */}
         {/* <UserGreeting/> */}
         {/* <NameList/> */}
         {/* <Stylesheet primary = {true}/> */}
-        <Inline/>
+        {/* <Inline/> */}
+        {/* <Form/> */}
+        {/* <Practiceprops/> */}
+        {/* <DiscountPercentage temp = {22}/> */}
+        {/* <DiscountPercentage temp = {20}/> */}
+        {/* <DiscountPercentage temp = {5}/> */}
+        <Listrendering/>
       </div>
     );
 }

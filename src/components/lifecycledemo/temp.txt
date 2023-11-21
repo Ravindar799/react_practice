@@ -1,0 +1,46 @@
+initial render
+------------
+parent constructor
+
+parent getDerivedStateFromProps
+
+parent render
+
+parent componentDidMount
+
+re rendering 
+-------------
+parent getDerivedStateFromProps
+
+parent shouldComponentUpdate
+
+if true
+
+parent render
+
+parent componentDidUpdate
+
+===================================================
+
+initial render of parent having child
+----------------------------------------
+
+parent constructor
+
+parent getDerivedStateFromProps
+
+parent render
+
+child constructor
+
+child getDerivedStateFromProps
+
+child render
+
+child componentDidMount
+
+parent componentDidMount
+
+
+
+

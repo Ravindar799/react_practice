@@ -17,6 +17,14 @@ import Form from './components/Form';
 import Practiceprops from './components/Practiceprops';
 import DiscountPercentage from './components/DiscountPercentage';
 import Listrendering from './components/Listrendering';
+import LIfeCycleMethods from './components/LifeCycleMethods';
+import Parent from './components/lifecycledemo/parent'
+import RefsDemo from './refs/RefsDemo';
+import context from './components/context/Context';
+import {UserProvider }from'./components/context/Context'
+import ComponentA from './components/context/ComponentA';
+import ClickCounter from './components/HOC/ClickCounter';
+import HoverCounter from './components/HOC/HoverCounter';
 function App () {
     return (
       <div className="App">
@@ -33,8 +41,16 @@ function App () {
         {/* <DiscountPercentage temp = {22}/> */}
         {/* <DiscountPercentage temp = {20}/> */}
         {/* <DiscountPercentage temp = {5}/> */}
-        <Listrendering/>
-      </div>
+        {/* <Listrendering/> */}
+        {/* <LIfeCycleMethods/> */}
+        {/* <Parent /> */}
+        {/* <Context/> */}
+        {/* <UserProvider value= "ravindar">
+          <ComponentA/>
+        </UserProvider> */}
+        <ClickCounter name = "rahul"/>
+        <HoverCounter/>
+     </div>
     );
 }
 

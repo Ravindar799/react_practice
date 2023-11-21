@@ -19,7 +19,6 @@ import React, { Component } from 'react'
     }
   render() {
         let task = this.state.tasks.map((temp,index)=>{
-            console.log(index);
             return <>
             <li key={temp.id}>{temp.name}{temp.id}</li>
             <button onClick={()=>{this.delete(index)}}>delete</button>
